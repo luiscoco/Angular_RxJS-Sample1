@@ -22,3 +22,9 @@ jobs:
 
       - name: Build
         run: npm build
+        
+      - name: Run tests
+        run: npm run test:headless
+
+      - name: Build
+        run: npm run build:prod
